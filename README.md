@@ -1,1 +1,20 @@
+---
+runme:
+  id: 01HTVW2PGNFTYCYEFE0AH61ZC4
+  version: v3
+---
+
 # futureskill
+
+### Class Project
+● วาดภาพ Process Step ต่าง ๆ ของ Devops Pipeline รวมถึงใส่ Tools ในแต่ละ Step ● วาดภาพ Infrastructure Architecture โดยมีโจทย์ตามน้ี
+○ มีเคร่ืองคอมพิวเตอร์ 3 เคร่ืองอยู่ Network zone Internet Facing
+■ เคร่ืองท่ี 1 ชื่อ Squid proxy เคร่ืองน้ีรับ traffic จาก Zone private zone ออก Internet
+■ เครื่องที่ 2 ชื่อ Ha proxy เครื่องนี้รับ traffic จาก internet ไปยัง private zone
+■ เคร่ืองที่ 3 ชื่อ Control ให้ Devops Engineer เข้ามาควบคุมเคร่ืองภายใน private zone
+○ มี Kubernetes Cluster 3 Master 3 Worker อยู่ใน Private Zone
+■ เคร่ือง Control จะต้องต่อเข้า Master Node
+■ เครื่อง Worker Node ต้องต่อออก Squid Proxy
+■ เคร่ือง Haproxy ต้องต่อออก WorkerNode
+○ เคร่ือง SQL Server (Database) อยู่ใน Internal zone
+■ เคร่ือง Kubernetes Worker Node ต้องต่อเข้า SQL Server
