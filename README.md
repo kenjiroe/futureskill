@@ -1,12 +1,4 @@
----
-runme:
-  id: 01HTVW2PGNFTYCYEFE0AH61ZC4
-  version: v3
----
-
-# futureskill
-
-```sh {"id":"01HTVXSSH0F1AEPXKB4DD42JTF"}
+## futureskill
 Class-Project
 วาดภาพ Process Step ต่าง ๆ ของ Devops Pipeline รวมถึงใส่ Tools ในแต่ละ Step 
 วาดภาพ Infrastructure Architecture โดยมีโจทย์ตามนั้น
@@ -22,4 +14,3 @@ Class-Project
     * เครื่อง Haproxy ต้องต่อออก WorkerNode
 เครื่อง SQL Server (Database) อยู่ใน Internal zone
     * Kubernetes Worker Node ต้องต่อเข้า SQL Server
-```
