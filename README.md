@@ -1,7 +1,8 @@
 ## futureskill
 Class-Project
-วาดภาพ Process Step ต่าง ๆ ของ Devops Pipeline รวมถึงใส่ Tools ในแต่ละ Step 
-วาดภาพ Infrastructure Architecture โดยมีโจทย์ตามนั้น
+
+#วาดภาพ Process Step ต่าง ๆ ของ Devops Pipeline รวมถึงใส่ Tools ในแต่ละ Step 
+#วาดภาพ Infrastructure Architecture โดยมีโจทย์ตามนั้น
 
 มีเครื่องคอมพิวเตอร์ 3 เครื่องอยู่ Network zone Internet Facing 
     * เครื่องที่ 1 ชื่อ Squid proxy เครื่องนี้รับ traffic จาก Zone private zone ออก Internet 
